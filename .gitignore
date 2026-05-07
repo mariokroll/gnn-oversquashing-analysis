@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# report files except pdf
+report/*
+!report/*.pdf
+
+# uv
+uv.lock
